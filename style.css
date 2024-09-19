@@ -1,0 +1,136 @@
+*{
+  background-color:rgb(145, 145, 215);
+}
+span{
+  color: rgb(213, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+.heading{
+  color:rgb(11, 145, 198);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-left: 5px solid black;
+  border-bottom: 5px solid red;
+  border-top: 5px solid blue;
+  border-right: 5px solid white;
+  border-radius: 8%;
+}
+#id{
+  color: rgb(204, 170, 35);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  font-style:italic;
+}
+.click{
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 0; */
+  margin:0;
+  height: 50px;
+  width: 200px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: larger;
+  color:aqua;
+  font-size: 29px;
+  font-weight: bolder;
+  background-color:blueviolet;
+  
+}
+.click:hover{
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+}  
+.overflow{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  overflow:auto;
+  display: inline;
+}
+.bigbox{
+  /* height: 1000px;
+  width: 900px; */
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: space-around;
+ text-align:center;
+ font-size: 500%;
+ flex-wrap: wrap;
+ align-content: flex-start;
+
+
+}
+.box{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: rgb(0, 255, 0);
+  border: 4px solid black;
+}
+.Box_1{
+  background-color: rgb(199, 198, 198);
+  height: 200px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 5px solid black;
+ 
+}
+.Box_2{
+  background-color: rgb(241, 20, 208);
+  height: 200px;
+  width: 300px;
+  box-sizing:border-box;
+  border: 5px solid black;
+}
+#trans{
+  transform: translate(100px, 100px);
+  transform: skew(20deg, 20deg);
+}
+.bb{
+  background-color: rgb(255, 0, 0);
+  height: 250px;
+  width: 600px;
+  margin: 5px;
+  font-weight: bolder;
+  font-size: larger;
+  border: 4px solid black;
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.bx1{
+  background-color: rgb(25, 190, 236);
+  
+  border:2px solid black;
+  box-sizing: border-box;
+}
+.bx2{
+  background-color: rgb(216, 192, 192);
+  
+  border:2px solid black;
+  box-sizing: border-box;
+}
+.bx3{
+  background-color: rgb(21, 45, 203);
+  
+  border:2px solid black;
+  box-sizing: border-box;
+}
+.bx4{
+  background-color: rgb(30, 214, 60);
+  
+  border:2px solid black;
+  box-sizing: border-box;
+}
+.bx5{
+  background-color: rgb(238, 247, 76);
+  
+  border:2px solid black;
+  box-sizing: border-box;
+}
